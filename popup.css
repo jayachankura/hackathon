@@ -1,0 +1,8 @@
+.add_cat {
+  padding: 10px;
+  border: 1px solid black;
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+}

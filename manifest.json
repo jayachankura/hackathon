@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "con-Cat()",
+  "version": "1.0",
+  "action": {
+    "default_title": "Click Me",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["popup.js"],
+      "matches": [
+        "https://developer.chrome.com/docs/extensions/*",
+        "https://developer.chrome.com/docs/webstore/*"
+      ]
+    }
+  ]
+}
