@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "con-Cat()",
+  "version": "1.0",
+  "action": {
+    "default_title": "Click Me",
+    "default_popup": "popup.html"
+  }
+}
