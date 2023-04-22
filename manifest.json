@@ -8,11 +8,9 @@
   },
   "content_scripts": [
     {
-      "js": ["popup.js"],
-      "matches": [
-        "https://developer.chrome.com/docs/extensions/*",
-        "https://developer.chrome.com/docs/webstore/*"
-      ]
+      "js": ["./background.js"],
+      "css": ["./cat.css"],
+      "matches": ["<all_urls>"]
     }
   ]
 }
